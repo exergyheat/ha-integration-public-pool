@@ -1,0 +1,11 @@
+{
+  "domain": "public_pool",
+  "name": "Public Pool",
+  "codeowners": ["@dylan"],
+  "config_flow": true,
+  "documentation": "https://github.com/benjamin-wilson/public-pool",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/benjamin-wilson/public-pool/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
