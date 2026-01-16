@@ -2,7 +2,7 @@
   "config": {
     "step": {
       "user": {
-        "title": "Public Pool Setup",
+        "title": "Exergy - Public Pool Setup",
         "description": "Enter your Bitcoin address to monitor your miners on Public Pool",
         "data": {
           "bitcoin_address": "Bitcoin Address",
