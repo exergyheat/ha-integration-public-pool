@@ -17,7 +17,6 @@ from .const import (
     CONF_POOL_URL,
     CONF_SCAN_INTERVAL,
     CONF_VERIFY_SSL,
-    DEFAULT_POOL_URL,
     DEFAULT_SCAN_INTERVAL,
     DEFAULT_VERIFY_SSL,
     DOMAIN,
@@ -27,8 +26,8 @@ _LOGGER = logging.getLogger(__name__)
 
 STEP_USER_DATA_SCHEMA = vol.Schema(
     {
+        vol.Required(CONF_POOL_URL): str,
         vol.Required(CONF_BITCOIN_ADDRESS): str,
-        vol.Optional(CONF_POOL_URL, default=DEFAULT_POOL_URL): str,
         vol.Optional(CONF_SCAN_INTERVAL, default=DEFAULT_SCAN_INTERVAL): int,
         vol.Optional(CONF_VERIFY_SSL, default=DEFAULT_VERIFY_SSL): bool,
     }

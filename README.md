@@ -4,7 +4,9 @@
 [![GitHub Release](https://img.shields.io/github/v/release/exergyheat/ha-integration-public-pool)](https://github.com/exergyheat/ha-integration-public-pool/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Home Assistant integration for monitoring your Bitcoin miners on [Public Pool](https://web.public-pool.io).
+Home Assistant integration for monitoring your Bitcoin miners on a self-hosted [Public Pool](https://github.com/benjamin-wilson/public-pool) instance.
+
+Tested with the [Start9 Public Pool package](https://marketplace.start9.com/). Should work with any self-hosted Public Pool instance.
 
 ## Features
 
@@ -50,8 +52,8 @@ For each of your mining workers, the integration creates:
 1. Go to **Settings > Devices & Services**
 2. Click **+ Add Integration**
 3. Search for "Exergy - Public Pool"
-4. Enter your Bitcoin mining address
-5. (Optional) Configure pool URL (defaults to `https://web.public-pool.io`)
+4. Enter your Public Pool instance URL (e.g., `https://your-pool.local`)
+5. Enter your Bitcoin mining address
 6. (Optional) Adjust scan interval (defaults to 60 seconds)
 7. (Optional) Disable SSL verification for self-signed certificates
 

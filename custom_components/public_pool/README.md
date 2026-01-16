@@ -1,6 +1,8 @@
 # Exergy - Public Pool
 
-Home Assistant integration for monitoring your Bitcoin miners on Public Pool.
+Home Assistant integration for monitoring your Bitcoin miners on a self-hosted Public Pool instance.
+
+Tested with the Start9 Public Pool package.
 
 ## Sensors
 
@@ -28,8 +30,8 @@ Home Assistant integration for monitoring your Bitcoin miners on Public Pool.
 
 | Option | Required | Default | Description |
 |--------|----------|---------|-------------|
+| Pool URL | Yes | - | Your self-hosted Public Pool URL |
 | Bitcoin Address | Yes | - | Your mining address |
-| Pool URL | No | `https://web.public-pool.io` | Pool API URL |
 | Scan Interval | No | 60 | Polling interval in seconds |
 | Verify SSL | No | True | SSL certificate verification |
 

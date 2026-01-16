@@ -13,7 +13,6 @@ CONF_SCAN_INTERVAL = "scan_interval"
 CONF_VERIFY_SSL = "verify_ssl"
 
 # Defaults
-DEFAULT_POOL_URL = "https://web.public-pool.io"
 DEFAULT_SCAN_INTERVAL = 60  # seconds
 DEFAULT_VERIFY_SSL = True
 

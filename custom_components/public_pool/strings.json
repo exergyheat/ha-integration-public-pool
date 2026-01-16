@@ -3,10 +3,10 @@
     "step": {
       "user": {
         "title": "Exergy - Public Pool Setup",
-        "description": "Enter your Bitcoin address to monitor your miners on Public Pool",
+        "description": "Connect to your self-hosted Public Pool instance. Tested with the Start9 Public Pool package.",
         "data": {
+          "pool_url": "Pool URL (e.g., https://your-pool.local)",
           "bitcoin_address": "Bitcoin Address",
-          "pool_url": "Pool URL",
           "scan_interval": "Scan Interval (seconds)",
           "verify_ssl": "Verify SSL Certificate"
         }
